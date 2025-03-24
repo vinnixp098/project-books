@@ -1,0 +1,139 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #505050;
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .books {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+    justify-content: center;
+  }
+  
+  .book-item {
+    display: flex;
+    background: rgb(240, 240, 240);
+    border-radius: 10px;
+    color: rgb(124, 124, 124);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 200ms;
+  }
+
+  .book-item:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .book-item img {
+    width: 120px;
+    height: 180px;
+    margin-right: 10px;
+    background: #000;
+  }
+  
+  .book-information {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .book-assessment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  .book-description {
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+    color: #505050;
+  }
+
+
+  @media (min-width: 308px) and (max-width: 1024px) {
+    .main h1{
+      font-size: 44px;
+      margin-left: 50px;
+    }
+    .books {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      padding: 0 50px 0 50px;
+      justify-content: center;
+    }
+    .book-item {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .book-item img {
+      width: 200px;
+      height: 300px;
+      margin-bottom: 10px;
+    }
+    .book-information {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: justify;
+      align-items: center;
+    }
+    .book-title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size: 38px;
+      text-align: center;
+    }
+    .book-author {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size: 36px;
+    }
+    .book-price {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size: 34px;
+    }
+    .book-assessment {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size: 34px;
+    }
+    
+    .book-description {
+      margin-top: 20px;
+      font-size: 32px;
+      text-align: justify;
+      padding: 10px;
+      color: #7c7c7c;
+    }
+  }

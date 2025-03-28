@@ -18,7 +18,7 @@ export function HeaderComponent() {
             <a href="/">Início</a>
           </li>
           <li>
-            <a href="#">Gêneros</a>
+            <a href="/">Gêneros</a>
           </li>
           <li>
             <a href="/authors">Autores</a>

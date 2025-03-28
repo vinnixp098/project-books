@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import "./BooksViewStyle.css";
-import Livro from "../../assets/livro.png";
 import { BooksData } from "../../app/BooksData";
 import { useNavigate } from "react-router-dom";
 

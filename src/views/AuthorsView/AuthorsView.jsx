@@ -1,7 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+
 import "./AuthorsViewStyle.css";
-import Autor from "../../assets/autor.jpg";
 import { AuthorsData } from "../../app/AuthorsData";
 import { useNavigate } from "react-router-dom";
 

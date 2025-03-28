@@ -1,8 +1,5 @@
 import "./BookInfoViewStyle.css";
 import { useLocation } from "react-router-dom";
-import { FaAmazon } from "react-icons/fa";
-import { SiSaraiva } from "react-icons/si";
-import { FaStore } from "react-icons/fa";
 
 export function BookInfoView() {
   const location = useLocation();
